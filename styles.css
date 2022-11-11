@@ -1,0 +1,117 @@
+/* These CSS rules apply to the <html>, <body>, and <div id="app"> HTML elements in index.html */
+html,
+body,
+#app {
+  min-height: 100vh;
+  margin: 0;
+}
+
+/* Continue building out the CSS styling for your Twiddler app below! We got you started by
+providing a space for you to apply styles to your app's outermost HTML element - the #app itself. */
+
+#app {
+  background-color: rgb(54, 107, 138);
+  color: rgb(0, 0, 0);
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+}
+
+#app {
+  text-align: center;
+}
+
+#feed {
+  display: flex;
+  flex-direction: column;
+  row-gap: 20px;
+}
+
+#update-feed {
+  margin-bottom: 30px;
+  cursor: pointer;
+}
+
+.username {
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.message {
+  padding: 10px;
+}
+
+.icons {
+  margin-top: 10px;
+}
+
+.tweet {
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 0 100px;
+  padding: 20px 0;
+  background-color: lightblue;
+}
+
+.profile-photo {
+  height: 60px;
+  width: 60px;
+  border-radius: 50%;
+}
+
+h1 {
+  margin: 10px;
+  padding: 20px 10px;
+}
+
+.title {
+  display: inline-flex;
+  border: 1px solid black;
+  border-radius: 5px;
+  background: lightblue;
+}
+
+/* CSS */
+.button-8 {
+  background-color: #e1ecf4;
+  border-radius: 3px;
+  border: 1px solid #7aa7c7;
+  box-shadow: rgba(255, 255, 255, 0.7) 0 1px 0 0 inset;
+  box-sizing: border-box;
+  color: #39739d;
+  cursor: pointer;
+  display: inline-block;
+  font-family: -apple-system, system-ui, "Segoe UI", "Liberation Sans", sans-serif;
+  font-size: 13px;
+  font-weight: 400;
+  line-height: 1.15385;
+  margin: 0;
+  outline: none;
+  padding: 8px 0.8em;
+  position: relative;
+  text-align: center;
+  text-decoration: none;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  vertical-align: baseline;
+  white-space: nowrap;
+}
+
+.button-8:hover,
+.button-8:focus {
+  background-color: #b3d3ea;
+  color: #2c5777;
+}
+
+.button-8:focus {
+  box-shadow: 0 0 0 4px rgba(0, 149, 255, 0.15);
+}
+
+.button-8:active {
+  background-color: #a0c7e4;
+  box-shadow: none;
+  color: #2c5777;
+}
